@@ -9,6 +9,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18-4169E1?logo=postgresql&logoColor=white)
 
+![License MIT](https://img.shields.io/badge/license-MIT-green)
 </div>
 
 > **Коротко.** Внешний сервис интеграции мессенджеров с amoCRM — это зависимость от подрядчика и непрозрачная обработка сообщений. Здесь собственный шлюз: адаптеры каналов, сохраняемые inbox/outbox, проекция сообщений в CRM и консоль оператора. Главное отличие от «просто вебхука» — воспроизводимая обработка: дедупликация, идемпотентные команды, отдельная судьба неопределённых отправок и явный выключатель исходящих сообщений.
